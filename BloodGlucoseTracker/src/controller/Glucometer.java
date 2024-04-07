@@ -21,6 +21,42 @@ public class Glucometer {
 		this.time_stamp = System.currentTimeMillis();
 		this.grams_of_sugar = 0;
 	}
+
+	public double getBlood_glucose() {
+		return blood_glucose;
+	}
+
+	public void setBlood_glucose(double blood_glucose) {
+		this.blood_glucose = blood_glucose;
+	}
+
+	public String getPatient_name() {
+		return patient_name;
+	}
+
+	public void setPatient_name(String patient_name) {
+		this.patient_name = patient_name;
+	}
+
+	public Long getTime_stamp() {
+		return time_stamp;
+	}
+
+	public void setTime_stamp(Long time_stamp) {
+		this.time_stamp = time_stamp;
+	}
+
+	public double getGrams_of_sugar() {
+		return grams_of_sugar;
+	}
+
+	public void setGrams_of_sugar(double grams_of_sugar) {
+		this.grams_of_sugar = grams_of_sugar;
+	}
+	
+	
+	
+	
 	
 	
 	
